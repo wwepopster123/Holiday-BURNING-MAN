@@ -1,0 +1,157 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: #000;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+header a{
+    color: #fff;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    margin-top: 113px;
+}
+
+.descriptions {
+    margin-top: 58px;
+    margin-bottom: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descriptions p {
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.des-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 118px;
+    
+}
+
+img {
+    transition: all 0.5s ease;
+}
+
+img:hover {
+    box-shadow: 0 0 35px 15px rgba(0,0,0,0.5);
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.container h2{
+    margin-top: -30px;
+    font-size: 50px;
+}
+
+.footer-text {
+    display: flex;
+}
+
+.footer-text p{
+    margin-right: 60px;
+}
+
+.container.descriptions p {
+    margin-top: 19px;
+}
+
+.header {
+    background: url("../img/header-bg.png") no-repeat center top / cover;
+    padding-bottom: 300px;
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    transition: all 0.5s ease;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.entry:hover {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.tel {
+    font-size: 17px;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.tel:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    padding-top: 57px;
+    display: flex;
+    align-items: center;
+}
+
+.offer {
+    margin-top: 216px;
+}
+
+.offer p {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.offer p.bigger {
+    font-size: 100px;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.offer a.button-tickets{
+    border: 2px solid #fff;
+    padding: 16px 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 49px;
+    transition: all 0.5s ease;
+}
+
+.offer a.button-tickets:hover {
+    background: white;
+    color: black;
+}
+
